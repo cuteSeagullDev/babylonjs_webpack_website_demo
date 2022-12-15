@@ -6,7 +6,7 @@ import * as BABYLON from '@babylonjs/core';
 import "@babylonjs/loaders/glTF";
 import "@babylonjs/core/Debug/debugLayer";
 import "@babylonjs/inspector";
-import boomBox from "./assets/boomboxlowerpoly.glb"
+// import boomBox from "./assets/boomboxlowerpoly.glb"
 
 /*
 *

@@ -7,7 +7,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        assetModuleFilename: '['
+        assetModuleFilename: '[name][ext]'
     },
     devtool: 'source-map',
     devServer: {
