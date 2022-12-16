@@ -28,11 +28,9 @@ module.exports = {
             },
             { 
                 test: /\.(glb|gltf|hdr)$/i,
-                use: {
-                    loader: "url-loader",
-                    options: {
-                        limit: 8192
-                    }
+                loader: "file-loader",
+                options: {
+                    name: '[name].[ext]'
                 }
             },
             {
